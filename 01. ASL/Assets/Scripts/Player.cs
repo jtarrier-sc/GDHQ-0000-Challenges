@@ -22,12 +22,16 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // When the space key is pressed, print out the values. Example Print: "25 M Atlanta"
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // When the space key is pressed, print out the values. Example Print: "25 M Atlanta"
+        if (Input.GetKeyDown(KeyCode.Space) == true)
+        {
+            Debug.Log(myAge + " " + mySex + " " + myLocation);
+        }
     }
 }
