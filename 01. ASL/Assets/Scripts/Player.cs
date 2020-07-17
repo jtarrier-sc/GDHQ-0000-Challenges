@@ -10,11 +10,14 @@ public class Player : MonoBehaviour
     /// You should be able to change these values at runtime. Example Print: "25 M Atlanta"
     /// </summary>
     
+    // Variable to contain your age
+    // Variable to contain your sex
+    // Variable to contain your location
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        // When the space key is pressed, print out the values. Example Print: "25 M Atlanta"
     }
 
     // Update is called once per frame
