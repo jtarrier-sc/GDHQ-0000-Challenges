@@ -9,10 +9,15 @@ public class Player : MonoBehaviour
     /// the inspector. When you press the space key, it should print out the values.
     /// You should be able to change these values at runtime. Example Print: "25 M Atlanta"
     /// </summary>
-    
+
     // Variable to contain your age
+    public int myAge = 25;
+
     // Variable to contain your sex
+    public string mySex = "M";
+
     // Variable to contain your location
+    public string myLocation = "Atlanta";
 
     // Start is called before the first frame update
     void Start()
